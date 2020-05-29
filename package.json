@@ -2,7 +2,7 @@
   "name": "stripe-names-to-descriptions",
   "version": "1.0.0",
   "description": "Fix Stripe records by copying the customer names to descriptions",
-  "main": "index.js",
+  "main": "run.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/theDanielJLewis/stripe-names-to-descriptions#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "stripe": "^8.56.0"
+    "stripe": "^8.56.0",
+    "yargs": "^15.3.1"
   }
 }
